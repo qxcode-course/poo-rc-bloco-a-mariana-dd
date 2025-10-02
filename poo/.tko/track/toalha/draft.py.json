@@ -27,8 +27,13 @@
         },
         {
             "label": "2025-09-30_20-49-09",
-            "content": "@@ -150,97 +150,8 @@\n = 0%0A\n-    def __str__(self) -%3E str:%0A        return f%22%7Bself.color%7D:%7Bself.size%7D:%7Bself.wetness%7D%22%0A%0A\n %0Atow\n",
-            "lines": "16"
+            "content": "@@ -1,157 +1,34 @@\n-class Towel :%0A    def __init__(self, color: str, size: str):%0A        self.color: str = color%0A        self.size: str = size%0A        self.wetness: int = 0%0A\n+@@ -150,97 +150,8 @@%0A = 0%250A%0A-\n     \n@@ -50,15 +50,19 @@\n f) -\n-%3E\n+%253E\n  str:\n-%0A\n+%250A\n     \n@@ -77,10 +77,14 @@\n rn f\n-%22%7B\n+%2522%257B\n self\n@@ -89,19 +89,23 @@\n lf.color\n-%7D:%7B\n+%257D:%257B\n self.siz\n@@ -109,11 +109,15 @@\n size\n-%7D:%7B\n+%257D:%257B\n self\n@@ -128,239 +128,25 @@\n ness\n-%7D%22%0A%0A%0Atowel: Towel = Towel(%22blue%22 , %22g%22)%0A%0A%0Aesposa = Towel (%22red%22 , %22g%22)%0A%0Aprint(%22qual a cor da sua toalha e o tamanho?%22)%0Acolor = input()%0Asize = input()%0Atowel: Towel = Towel(color, size)%0Aprint(f%22sua toalha %C3%A9 %7Btowel.color%7D e %7Btowel.size%7D%22)\n+%257D%2522%250A%250A%0A %250Atow%0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-09-30_21-23-36",
+            "content": "class Towel :\n    def __init__(self, color: str, size: str):\n        self.color: str = color\n        self.size: str = size\n        self.wetness: int = 0\n    def __str__(self) -> str:\n        return f\"{self.color}:{self.size}:{self.wetness}\"\n\n\ntowel: Towel = Towel(\"blue\" , \"g\")\n\n\nesposa = Towel (\"red\" , \"g\")\n\nprint(\"qual a cor da sua toalha e o tamanho?\")\ncolor = input()\nsize = input()\ntowel: Towel = Towel(color, size)\nprint(f\"sua toalha \u00e9 {towel.color} e {towel.size}\")",
+            "lines": "19"
         }
     ]
 }

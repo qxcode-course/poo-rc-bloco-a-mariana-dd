@@ -8,11 +8,14 @@ database: database
 expanded:
 - campanha-principal
 - bloco_b-primeiras-classes
-tasks: {}
+- configuracao-e-aquecimento
+- bloco_a-práticas-com-o-git
+tasks:
+  animal: '{rate:100}'
 flags:
   quests: 0
   tracks: 0
   tasks: 0
   graph: 1
   xray: 0
-index: toalha
+index: animal

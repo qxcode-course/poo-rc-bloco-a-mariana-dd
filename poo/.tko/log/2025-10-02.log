@@ -1,0 +1,131 @@
+2025-10-02 01:17:27, MOVE, v:1, k:animal, mode:DOWN
+2025-10-02 01:17:29, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 01:17:31, EXEC, v:1, k:animal, mode:FULL, rate:0, size:0
+2025-10-02 01:17:35, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:22:59, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 01:47:31, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 01:47:32, EXEC, v:1, k:animal, mode:FULL, rate:0, size:21
+2025-10-02 01:47:33, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:47, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:50, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:51, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:53, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:54, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:54, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:54, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:54, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:54, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:54, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:56, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:56, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:56, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:56, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:56, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:56, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:47:56, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:48:35, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 01:51:52, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 01:52:01, EXEC, v:1, k:animal, mode:FREE
+2025-10-02 01:52:14, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 01:52:15, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 01:52:17, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:53:38, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 01:53:38, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 01:53:54, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:53:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 01:53:57, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 01:53:57, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 01:53:58, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 01:53:58, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 01:53:58, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 02:03:28, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 02:03:28, EXEC, v:1, k:animal, mode:FULL, rate:0, size:21
+2025-10-02 02:03:28, EXEC, v:1, k:animal, mode:FULL, rate:0, size:21
+2025-10-02 02:03:31, EXEC, v:1, k:animal, mode:FULL, rate:0, size:21
+2025-10-02 02:16:15, EXEC, v:1, k:animal, mode:FULL, rate:0, size:25
+2025-10-02 02:16:23, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:24, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:24, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:26, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:26, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:27, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:27, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:27, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:27, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:27, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:28, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:29, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:31, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:31, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:31, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:31, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 02:16:40, EXEC, v:1, k:animal, mode:FREE
+2025-10-02 02:38:56, EXEC, v:1, k:animal, mode:FULL, rate:0, size:31
+2025-10-02 03:01:28, EXEC, v:1, k:animal, mode:FULL, rate:0, size:62
+2025-10-02 03:04:27, EXEC, v:1, k:animal, mode:FULL, rate:0, size:62
+2025-10-02 03:04:27, EXEC, v:1, k:animal, mode:FULL, rate:0, size:62
+2025-10-02 03:04:28, EXEC, v:1, k:animal, mode:FULL, rate:0, size:62
+2025-10-02 03:04:28, EXEC, v:1, k:animal, mode:FULL, rate:0, size:62
+2025-10-02 03:04:28, EXEC, v:1, k:animal, mode:FULL, rate:0, size:62
+2025-10-02 03:04:30, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 03:10:17, EXEC, v:1, k:animal, mode:FULL, rate:25, size:83
+2025-10-02 03:12:08, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:12:08, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:12:09, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:12:10, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:12:10, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:12:10, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:12:12, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:22:55, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:22:56, EXEC, v:1, k:animal, mode:FULL, rate:100, size:71
+2025-10-02 03:22:59, EXEC, v:1, k:animal, mode:FULL, rate:100
+2025-10-02 03:23:45, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:23:45, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:23:46, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:39:29, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:39:29, EXEC, v:1, k:animal, mode:FULL, rate:100
+2025-10-02 03:39:30, EXEC, v:1, k:animal, mode:FULL, rate:100
+2025-10-02 03:39:33, EXEC, v:1, k:animal, mode:FULL, rate:100
+2025-10-02 03:39:36, EXEC, v:1, k:animal, mode:FULL, rate:100
+2025-10-02 03:39:39, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:39:39, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:39:41, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 03:39:41, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 03:39:42, MOVE, v:1, k:animal, mode:BACK
