@@ -1,13 +1,13 @@
 class Animal:
-    def __init__(self, especie, som):
-        self.especie = especie
-        self.som = som
-        self.idade = 0
+    def __init__(self, especie: str, som: str):
+        self.especie: str = especie
+        self.som: str = som
+        self.idade: int = 0
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.especie}:{self.idade}:{self.som}"
 
-    def ageBy(self, incremento):
+    def ageBy(self, incremento: int) -> None:
         if self.idade == 4:
             print(f"warning: {self.especie} morreu")
             return
@@ -24,15 +24,13 @@ class Animal:
         return self.som
 
 
-def main():
-    animal = None
+def main() -> None:
+    animal: Animal | None = None
     while True:
         try:
-            line = input()
+            line: str = input()
         except EOFError:
             break
-        if line is None:
-            continue
         line = line.strip()
         if not line:
             continue
