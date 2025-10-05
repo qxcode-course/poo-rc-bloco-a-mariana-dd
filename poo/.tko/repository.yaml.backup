@@ -16,22 +16,29 @@ tasks:
 <<<<<<< Updated upstream
   calculadora: '{rate:100, iagen:_, alone:6}'
   enxugar: '{rate:100, human:_, iagen:_, alone:5, study:100}'
+<<<<<<< HEAD
 =======
 =======
   calculadora: '{rate:100, iagen:_, alone:6}'
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> 69e7065 (atividade 'enxugar')
 flags:
   quests: 0
   tracks: 0
   tasks: 0
   graph: 1
   xray: 0
-<<<<<<< Updated upstream
+ HEAD
+ Updated upstream
 index: enxugar
-=======
+
 
 index: animal
-=======
+
 index: calculadora
->>>>>>> Stashed changes
+ Stashed changes
+
+index: enxugar
+69e7065 (atividade 'enxugar')
