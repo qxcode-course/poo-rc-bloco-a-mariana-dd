@@ -1,74 +1,100 @@
-class car:
+class Carro:
     def __init__(self):
-        self.passengers = 0
-        self.passMax = 2
-        self.gas = 0
-        self.gasMax = 100
-        self.km = 0
+        self.passageiros: int = 0
+        self.passMax: int = 2
+        self.gasolina: int = 0
+        self.gasolinaMax: int = 100
+        self.km: int = 0
 
-    def __str__(self) -> str:
-        return f"pass: {self.passengers}, gas: {self.gas}, km: {self.km}"
-    
-    def enter(self) -> None:
-        if self.passengers < self.passMax:
-            self.passengers += 1
-        else:
-            print("fail: limite de pessoas atingido")
+    def __str__(self):
+        return f"pass: {self.passageiros}, gas: {self.gasolina}, km: {self.km}"
 
-    def leave(self) -> None:
-        if self.passengers > 0:
-            self.passengers -= 1
-        else:
+    def entrar(self):
+        if self.passageiros < self.passMax:
+            self.passageiros += 1
+            return True
+        print("fail: limite de pessoas atingido")
+        return False
+
+    def sair(self):
+        if self.passageiros > 0:
+            self.passageiros -= 1
+            return True
+        print("fail: nao ha ninguem no carro")
+        return False
+
+    def fuel(self, quantidade: int) -> bool:
+        self.gasolina = min(self.gasolina + quantidade, self.gasolinaMax)
+        return True
+
+    def drive(self, distancia: int) -> bool:
+        if self.passageiros == 0:
             print("fail: nao ha ninguem no carro")
+            return False
 
-    def fuel(self, amount: int) -> None:
-        self.gas += amount
-        if self.gas > self.gasMax:
-            self.gas = self.gasMax
-
-    def drive(self, distance: int) -> None:
-        if self.passengers == 0:
-            print("fail: nao ha ningue no carro")
-            return
-        if self.gas == 0:
+        if self.gasolina == 0:
             print("fail: tanque vazio")
-            return
-        if self.gas < distance:
-            self.km += self.gas
-            print(f"fail: tanque vazio apos andar {self.gas} km")
-            self.gas = 0
-            self.km += distance
-            self.gas -= distance
+            return False
 
-def main() -> None:
-    car = car()
-    while True:
-        try:
-            line = input().strip()
-        except EOFError:
-            break
-        if not line:
-            continue
-        if line.startswith("$"):
-            print(line)
-            cmd_line = line[1:].strip()
+        if self.gasolina >= distancia:
+            self.gasolina -= distancia
+            self.km += distancia
+            return True
         else:
+            km_rodado: int = self.gasolina
+            self.km += km_rodado
+            self.gasolina = 0
+
+            if km_rodado > 0:
+                print(f"fail: tanque vazio apos andar {km_rodado} km")
+            else:
+                print("fail: tanque vazio")
+            return False
+
+
+def main():
+    carro = Carro()
+
+    try:
+        while True:
+            line = input()
+            line = line.strip()
+
+            if not line:
+                continue
+
             print(f"${line}")
-           cmd_line = line
-        args = cmd_line.split()
-        cmd = args[0] 
-        if cmd == "end":
-            break
-        elif cmd == "show":
-            print(car)
-        elif cmd == "enter":
-            car.enter()
-        elif cmd == "leave":
-            car.leave()
-        elif cmd == "fuel":
-            car.fuel(int(args[1]))
-        elif cmd == "drive":
-            car.drive(int(args[1]))
+
+            parts = line.split()
+            cmd = parts[0]
+
+            if cmd == "show":
+                print(carro)
+            elif cmd == "enter":
+                carro.entrar()
+            elif cmd == "leave":
+                carro.sair()
+            elif cmd == "fuel":
+                if len(parts) > 1:
+                    try:
+                        quantidade = int(parts[1])
+                        carro.fuel(quantidade)
+                    except ValueError:
+                        pass
+            elif cmd == "drive":
+                if len(parts) > 1:
+                    try:
+                        distancia = int(parts[1])
+                        carro.drive(distancia)
+                    except ValueError:
+                        pass
+            elif cmd == "end":
+                break
+    except EOFError:
+        pass
+    except:
+        pass
+
 
 if __name__ == "__main__":
     main()

@@ -12,10 +12,12 @@ expanded:
 - bloco_a-práticas-com-o-git
 tasks:
   animal: '{rate:100, human:1, iagen:_, alone:5, study:150}'
+  carro: '{rate:100, human:_, iagen:_, alone:7, study:160}'
+  calculadora: '{rate:100, iagen:_, alone:6}'
 flags:
   quests: 0
   tracks: 0
   tasks: 0
   graph: 1
   xray: 0
-index: carro
+index: calculadora
