@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2025-10-05 16:02:06, MOVE, v:1, k:carro, mode:PICK
 2025-10-05 16:02:07, EXEC, v:1, k:carro, mode:FULL, rate:0, size:94
 2025-10-05 16:02:08, EXEC, v:1, k:carro, mode:FULL, rate:0
@@ -202,3 +203,5 @@
 2025-10-05 21:23:31, EXEC, v:1, k:enxugar, mode:FULL, rate:100
 2025-10-05 21:23:36, MOVE, v:1, k:enxugar, mode:BACK
 2025-10-05 21:24:34, SELF, v:1, k:enxugar, rate:100, human:_, iagen:_, alone:5, study:100
+=======
+>>>>>>> Stashed changes

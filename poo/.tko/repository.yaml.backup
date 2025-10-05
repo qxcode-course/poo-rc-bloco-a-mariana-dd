@@ -13,12 +13,25 @@ expanded:
 tasks:
   animal: '{rate:100, human:1, iagen:_, alone:5, study:150}'
   carro: '{rate:100, human:_, iagen:_, alone:7, study:160}'
+<<<<<<< Updated upstream
   calculadora: '{rate:100, iagen:_, alone:6}'
   enxugar: '{rate:100, human:_, iagen:_, alone:5, study:100}'
+=======
+=======
+  calculadora: '{rate:100, iagen:_, alone:6}'
+
+>>>>>>> Stashed changes
 flags:
   quests: 0
   tracks: 0
   tasks: 0
   graph: 1
   xray: 0
+<<<<<<< Updated upstream
 index: enxugar
+=======
+
+index: animal
+=======
+index: calculadora
+>>>>>>> Stashed changes

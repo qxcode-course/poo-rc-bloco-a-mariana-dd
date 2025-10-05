@@ -2,8 +2,17 @@
     "patches": [
         {
             "label": "2025-10-05_16-28-37",
+<<<<<<< Updated upstream
             "content": "@@ -1 +0,0 @@\n- \n",
             "lines": "0"
+=======
+<<<<<<< HEAD
+            "content": "",
+            "lines": "0"
+=======
+            "content": "@@ -1 +0,0 @@\n- \n",
+            "lines": "0"
+>>>>>>> Stashed changes
         },
         {
             "label": "2025-10-05_17-10-53",
@@ -74,6 +83,10 @@
             "label": "2025-10-05_19-02-36",
             "content": "class Calculadora:\n    def __init__(self, batteryMax: int):\n        self.display = 0.0\n        self.battery = 0\n        self.batteryMax = batteryMax\n\n    def __str__(self):\n        return f\"display = {self.display:.2f}, battery = {self.battery}\"\n\n    def charge(self, value: int):\n        self.battery = min(self.battery + value, self.batteryMax)\n\n    def useBattery(self) -> bool:\n        if self.battery <= 0:\n            print(\"fail: bateria insuficiente\")\n            return False\n        self.battery -= 1\n        return True\n\n    def sum(self, a: float, b: float):\n        if self.useBattery():\n            self.display = a + b\n\n    def div(self, a: float, b: float):\n        if self.battery <= 0:\n            print(\"fail: bateria insuficiente\")\n            return       \n        self.battery -= 1\n\n        if b == 0:\n            print(\"fail: divisao por zero\")\n            return\n\n        self.display = a / b\n\n\n\ndef main():\n    calc = None\n    while True:\n        try:\n            line = input().strip()\n            if not line:\n                continue\n\n            print(f\"${line}\")\n            parts = line.split()\n            cmd = parts[0]\n\n            if cmd == \"end\":\n                break\n            elif cmd == \"init\":\n                calc = Calculadora(int(parts[1]))\n            elif cmd == \"show\":\n                print(calc)\n            elif cmd == \"charge\":\n                if calc is not None:\n                   calc.charge(int(parts[1]))\n            elif cmd == \"sum\":\n                if calc is not None:\n                   calc.sum(float(parts[1]), float(parts[2]))\n            elif cmd == \"div\":\n                if calc is not None:\n                   calc.div(float(parts[1]), float(parts[2]))\n        except EOFError:\n            break\n\nif __name__ == \"__main__\":\n      main()\n\n      ",
             "lines": "71"
+<<<<<<< Updated upstream
+=======
+>>>>>>> 72c2e04 (atividade 'calculadora')
+>>>>>>> Stashed changes
         }
     ]
 }
